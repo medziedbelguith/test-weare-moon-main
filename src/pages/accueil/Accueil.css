@@ -1,0 +1,41 @@
+.accueil-content{
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.text-accueil-display-none{
+    display: none ;
+}
+
+.navbar-accueil{
+    position: fixed;
+    z-index: 3;
+    top:0px;
+    left:0px;
+    width: 100%; 
+}
+
+.GalerieFixe-accueil{
+    position: fixed;
+    z-index: 1;
+    top:0px;
+    left:0px;
+    width: 100%;
+    background-color: rgb(207, 197, 197);
+    height: 100%; 
+}
+
+
+.text-accueil{
+    position: relative;
+    z-index:2;
+    top:10vw;
+    width: 100%;
+
+}
+
+.navbar-accueil-1{
+    width: 100%;
+}

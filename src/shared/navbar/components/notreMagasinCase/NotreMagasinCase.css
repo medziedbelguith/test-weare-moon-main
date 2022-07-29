@@ -1,0 +1,58 @@
+
+
+.magasin{
+    width: 100%;
+    height: 100%;
+    line-height: 4.6vw;
+    transition: 0.3s ease-in-out;
+   
+}
+
+.magasin .item{
+    font-size: 1.2vw;
+    color: black;
+    padding:0px 0.3vw;
+}
+
+.right{
+    float:right;
+    margin-right: -3.2vw;
+}
+
+.magasin .item i{
+    font-size: 2vw;
+}
+
+
+.magasin:hover{
+    -webkit-transform: translate(-3vw,0px);
+    -moz-transform: translate(-3vw,0px);
+    -o-transform: translate(-3vw,0px);
+    -ms-transform: translate(-3vw,0px);
+    transform: translate(-3vw,0px);
+}
+
+
+.magasin .left {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.1s, visibility 0.1s;
+}
+
+.magasin:hover .left {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.1s, visibility 0.1s;
+}
+
+.magasin .right {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.1s, visibility 0.1s;
+}
+
+.magasin:hover .right {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.1s, visibility 0.1s;
+}

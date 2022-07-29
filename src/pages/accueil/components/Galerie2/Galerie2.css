@@ -1,0 +1,143 @@
+
+/* -----------------------galerie 1 start ----------------------*/ 
+
+.image-2{
+    margin-top: 5vw;
+  position:relative;
+  display: none;
+}
+
+.image-2-1{
+    position:relative;
+    visibility: hidden;
+}
+
+
+.image-1{
+   background-color: rgb(114, 45, 5);
+   position: relative;
+   height: 15vw;
+   overflow: hidden;   
+   margin-top: 32vw;
+}
+
+.image-1-1-1 img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 9vw;
+    padding-right: 3vw;
+}
+
+.image-1-1{
+    padding: 2vw;
+    z-index: 3;
+    position: relative;
+}
+
+.image-1-1-2 h1{
+ font-size: 3vw;
+}
+
+
+.image-1-1-2 p{
+    font-size: 2vw;
+}
+
+.image-1-1-1-1{
+   width: 100%; 
+   height: 100%;
+   position: relative;
+}
+
+.image-1-1-2{
+    color: white;
+    font-weight: 500;
+}
+
+.image-1-1-3{
+    
+}
+
+
+
+.image-1-1-3-1{
+    width: 100%; 
+    height: 100%;
+    position: relative;
+}
+
+
+/*animation */
+.image-1-2{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    background-color: green;
+    z-index: 2;
+}
+
+.image-1-2 {
+    height: 0px;
+    transition: height 0.1s;
+}
+
+.image-1:hover .image-1-2{
+    height:100%;
+    transition: height 0.1s;
+}
+
+.image-1-1-3 i{
+    color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 3vw;
+    height: 3vw;
+    font-size: 2.5vw;
+    transition: 0.3s ease-in-out;
+}
+
+.image-1:hover .image-1-1-3 i{
+    -webkit-transform: translate(2.5vw,0px);
+    -moz-transform: translate(2.5vw,0px);
+    -o-transform: translate(2.5vw,0px);
+    -ms-transform: translate(2.5vw,0px);
+    transform: translate(2.5vw,0px);
+}
+
+.image-1-3-2{
+   position: absolute;
+   top: -3vw;
+   left:-7vw;
+   visibility:visible;
+   height: 20vw;
+   width: 20vw;
+   z-index: 5;
+
+}
+
+.image-1-3-1{
+    position: absolute;
+    top: -3vw;
+    left:-7vw;
+    visibility:hidden;
+    z-index: 5;
+    width: 20vw;
+    height: 20vw;
+ }
+
+
+ .image-1:hover .image-1-3-2{
+    visibility:hidden;
+    transition: 0.1s visibility;
+ }
+ 
+ .image-1:hover .image-1-3-1{
+    visibility:visible;
+     transition: 0.1s visibility;
+  }
